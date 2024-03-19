@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    margin: 0;
+    background-color: rgb(85, 14, 151);
+}
+
+.mainContainer h2{
+    color: rgb(17, 117, 218);
+}
+.mainContainer {
+    text-align: center;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 5px;
+}
+.mainContainer input{
+    width: 300px;
+    padding: 0.8rem;
+    border: 2px solid  rgb(85, 14, 151);
+    border-radius: 9px;
+    font-size: 19px;
+    outline: none;
+    padding-left:11px ;
+}
+.ActionBtns{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.passbtn{
+    margin: 35px 0px 0px 0px;
+    padding: 1rem;
+    width: 120px;
+    background-color: rgb(11, 82, 163);
+    color: white;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    border-radius: 9px;
+    cursor: pointer;
+}
+#range{
+    width: 35px;
+}
+.InvalidRange{
+    padding: 0.9rem;
+    display: inline-block;
+    margin-top: 7%;
+    background-color: red;
+    color: white;
+    border-radius: 6px;
+    display: none;
+    font-weight: bold;
+}
